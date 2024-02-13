@@ -18,7 +18,7 @@ function getRandomNumber(min, max)
 
 
 
-btnNo.addEventListener("mouseover", (e)=> {
+btnNo.addEventListener("mouseover", (e,name)=> {
     const containerHeight = container.getBoundingClientRect().height;
     const containerWidth = container.getBoundingClientRect().width;
     const btnHeight = btnNo.getBoundingClientRect().height;
@@ -41,7 +41,7 @@ btnNo.addEventListener("mouseover", (e)=> {
     btnNo.style.left =  Math.floor(newLeft) + "px";
     no.classList.remove("hide");
     erm.classList.add("hide");
-    h1.innerText="Please select yes";
+    h1.innerText="Please select yes"+name+".";
 
 })
 btnNo.addEventListener("touchstart", (e)=> {
