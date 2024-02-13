@@ -6,8 +6,6 @@ const btnYes=document.querySelector(".btn-yes");
 const btnNo=document.querySelector(".btn-no");
 const h1=document.querySelector("h1");
 
-let name = prompt("enter your name");
-alert(name);
 
 function getRandomNumber(min, max)
 {
@@ -26,7 +24,7 @@ btnNo.addEventListener("mouseover", (e,name)=> {
     const btnWidth = btnNo.getBoundingClientRect().width;
     const btnTop = btnNo.getBoundingClientRect().top;
     const btnLeft = btnNo.getBoundingClientRect().left;
-    let name1=name;
+   let name = prompt("enter your name");
     let newTop=btnTop;
     let newLeft=btnLeft;
 
@@ -42,7 +40,7 @@ btnNo.addEventListener("mouseover", (e,name)=> {
     btnNo.style.left =  Math.floor(newLeft) + "px";
     no.classList.remove("hide");
     erm.classList.add("hide");
-    h1.innerText="Please select yes "+name1+".";
+    h1.innerText="Please select yes "+name+".";
 
 })
 btnNo.addEventListener("touchstart", (e)=> {
