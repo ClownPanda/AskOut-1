@@ -24,7 +24,6 @@ btnNo.addEventListener("mouseover", (e)=> {
     const btnWidth = btnNo.getBoundingClientRect().width;
     const btnTop = btnNo.getBoundingClientRect().top;
     const btnLeft = btnNo.getBoundingClientRect().left;
-   let name = prompt("enter your name");
     let newTop=btnTop;
     let newLeft=btnLeft;
 
@@ -40,7 +39,7 @@ btnNo.addEventListener("mouseover", (e)=> {
     btnNo.style.left =  Math.floor(newLeft) + "px";
     no.classList.remove("hide");
     erm.classList.add("hide");
-    h1.innerText="Please select yes "+name+".";
+    h1.innerText="Please select yes.";
 
 })
 btnNo.addEventListener("touchstart", (e)=> {
