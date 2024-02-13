@@ -39,7 +39,7 @@ btnNo.addEventListener("mouseover", (e)=> {
     btnNo.style.left =  Math.floor(newLeft) + "px";
     no.classList.remove("hide");
     erm.classList.add("hide");
-    h1.innerText="Please select yes";
+    h1.innerText="Please select yes karan";
 
 })
 btnNo.addEventListener("touchstart", (e)=> {
