@@ -17,7 +17,7 @@ function getRandomNumber(min, max)
 
 
 
-btnNo.addEventListener("mouseover", (e,name)=> {
+btnNo.addEventListener("mouseover", (e)=> {
     const containerHeight = container.getBoundingClientRect().height;
     const containerWidth = container.getBoundingClientRect().width;
     const btnHeight = btnNo.getBoundingClientRect().height;
