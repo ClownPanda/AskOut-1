@@ -6,6 +6,8 @@ const btnYes=document.querySelector(".btn-yes");
 const btnNo=document.querySelector(".btn-no");
 const h1=document.querySelector("h1");
 
+let name=prompt("enter your name");
+
 function getRandomNumber(min, max)
 {
     const randomNumber=Math.floor(Math.random() * (max - min + 1)) + min;
