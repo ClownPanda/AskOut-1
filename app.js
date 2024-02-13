@@ -18,7 +18,7 @@ let name = prompt("Enter your name honey!");
 name_user=name;
 
 
-btnNo.addEventListener("mouseover", (e)=> {
+btnNo.addEventListener("mouseclick", (e)=> {
     const containerHeight = container.getBoundingClientRect().height;
     const containerWidth = container.getBoundingClientRect().width;
     const btnHeight = btnNo.getBoundingClientRect().height;
