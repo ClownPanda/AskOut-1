@@ -76,6 +76,6 @@ btnYes.addEventListener("click", (e) =>{
     erm.classList.add("hide");
     no.classList.add("hide");
     yes.classList.remove("hide");
-    h1.innerText="Thank you"+name_user+"for making my heart skip a beat. Let the adventures begin!"
+    h1.innerText="Thank you "+name_user+" for making my heart skip a beat. Let the adventures begin!"
 })
 
