@@ -14,7 +14,8 @@ function getRandomNumber(min, max)
 }
 
 
-
+let name = prompt("Enter your name honey!");
+name_user=name;
 
 
 btnNo.addEventListener("mouseover", (e)=> {
@@ -39,7 +40,7 @@ btnNo.addEventListener("mouseover", (e)=> {
     btnNo.style.left =  Math.floor(newLeft) + "px";
     no.classList.remove("hide");
     erm.classList.add("hide");
-    h1.innerText="Please select yes.";
+    h1.innerText="Please select yes "+name_user+".";
 
 })
 btnNo.addEventListener("touchstart", (e)=> {
