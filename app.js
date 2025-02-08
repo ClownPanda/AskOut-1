@@ -14,8 +14,6 @@ function getRandomNumber(min, max)
 }
 
 
-let name = prompt("Enter your name honey!");
-name_user=name;
 
 
 btnNo.addEventListener("mouseover", (e)=> {
@@ -40,7 +38,7 @@ btnNo.addEventListener("mouseover", (e)=> {
     btnNo.style.left =  Math.floor(newLeft) + "px";
     no.classList.remove("hide");
     erm.classList.add("hide");
-    h1.innerText="Please select yes "+name_user+".";
+    h1.innerText="Please select yes Prakriti".";
 
 })
 btnNo.addEventListener("touchstart", (e)=> {
@@ -76,6 +74,6 @@ btnYes.addEventListener("click", (e) =>{
     erm.classList.add("hide");
     no.classList.add("hide");
     yes.classList.remove("hide");
-    h1.innerText="Thank you "+name_user+" for making my heart skip a beat. Let the adventures begin!"
+    h1.innerText="Thank you Prakriti for making my heart skip a beat. Let the adventures begin!"
 })
 
